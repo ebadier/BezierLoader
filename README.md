@@ -22,15 +22,15 @@ vcproj : a solution to compile the project with Visual C++ 2010.
 You can launch the last release by double-clicking on the "test.bat" file.
 Check the "test.bat" file to see how to load your own .obj file.
 	
-	==> The application load the curves in the .obj file.
-	Each curve is rendered with a particular random colour.
-	Control points are rendered as small spheres.
-	The curves are rendered as more or less broken lines, depending on the resolution. 
-	You can switch and focus on each curve pressing space bar.
-	
-	==> Controls:
-	W,S,A,D + mouse to move the camera.
-	Left_Shift : speed up translation.		
-	Space : switch to the next curve (the camera focus automatically on the next curve).
-	Enter : show all curves.
-	Esc : Exit.
+==> The application load the curves in the .obj file.
+Each curve is rendered with a particular random colour.
+Control points are rendered as small spheres.
+The curves are rendered as more or less broken lines, depending on the resolution. 
+You can switch and focus on each curve pressing space bar.
+
+==> Controls:
+W,S,A,D + mouse to move the camera.
+Left_Shift : speed up translation.		
+Space : switch to the next curve (the camera focus automatically on the next curve).
+Enter : show all curves.
+Esc : Exit.
