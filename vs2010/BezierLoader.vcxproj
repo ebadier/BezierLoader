@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\BezierLoader\Bezier.cpp" />
+    <ClCompile Include="..\src\BezierLoader\BezierBersteinPolynomial.cpp" />
+    <ClCompile Include="..\src\BezierLoader\BezierControlPoint.cpp" />
+    <ClCompile Include="..\src\BezierLoader\BezierCurveData.cpp" />
+    <ClCompile Include="..\src\BezierLoader\BezierCurveRenderer.cpp" />
+    <ClCompile Include="..\src\BezierLoader\BezierCurveSolver.cpp" />
+    <ClCompile Include="..\src\BezierLoader\BezierObjLoader.cpp" />
+    <ClCompile Include="..\src\Wm4\Wm4FoundationPCH.cpp" />
+    <ClCompile Include="..\src\Wm4\Wm4Math.cpp" />
+    <ClCompile Include="..\src\Wm4\Wm4Memory.cpp" />
+    <ClCompile Include="..\src\Wm4\Wm4System.cpp" />
+    <ClCompile Include="..\src\Wm4\Wm4Vector3.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\BezierLoader\Bezier.h" />
+    <ClInclude Include="..\src\BezierLoader\BezierBersteinPolynomial.h" />
+    <ClInclude Include="..\src\BezierLoader\BezierControlPoint.h" />
+    <ClInclude Include="..\src\BezierLoader\BezierCurveData.h" />
+    <ClInclude Include="..\src\BezierLoader\BezierCurveRenderer.h" />
+    <ClInclude Include="..\src\BezierLoader\BezierCurveSolver.h" />
+    <ClInclude Include="..\src\BezierLoader\BezierLineOfCommand.h" />
+    <ClInclude Include="..\src\BezierLoader\BezierMacros.h" />
+    <ClInclude Include="..\src\BezierLoader\BezierObjLoader.h" />
+    <ClInclude Include="..\src\BezierLoader\BezierStringHlp.h" />
+    <ClInclude Include="..\src\Wm4\Wm4FoundationLIB.h" />
+    <ClInclude Include="..\src\Wm4\Wm4FoundationPCH.h" />
+    <ClInclude Include="..\src\Wm4\Wm4Math.h" />
+    <ClInclude Include="..\src\Wm4\Wm4MathMCR.h" />
+    <ClInclude Include="..\src\Wm4\Wm4Memory.h" />
+    <ClInclude Include="..\src\Wm4\Wm4Platforms.h" />
+    <ClInclude Include="..\src\Wm4\Wm4System.h" />
+    <ClInclude Include="..\src\Wm4\Wm4THashSet.h" />
+    <ClInclude Include="..\src\Wm4\Wm4THashTable.h" />
+    <ClInclude Include="..\src\Wm4\Wm4TMinHeap.h" />
+    <ClInclude Include="..\src\Wm4\Wm4TSmallUnorderedSet.h" />
+    <ClInclude Include="..\src\Wm4\Wm4TStringHashTable.h" />
+    <ClInclude Include="..\src\Wm4\Wm4TTuple.h" />
+    <ClInclude Include="..\src\Wm4\Wm4Vector3.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\Wm4\Wm4Math.inl" />
+    <None Include="..\src\Wm4\Wm4Memory.inl" />
+    <None Include="..\src\Wm4\Wm4System.inl" />
+    <None Include="..\src\Wm4\Wm4THashSet.inl" />
+    <None Include="..\src\Wm4\Wm4THashTable.inl" />
+    <None Include="..\src\Wm4\Wm4TMinHeap.inl" />
+    <None Include="..\src\Wm4\Wm4TSmallUnorderedSet.inl" />
+    <None Include="..\src\Wm4\Wm4TStringHashTable.inl" />
+    <None Include="..\src\Wm4\Wm4TTuple.inl" />
+    <None Include="..\src\Wm4\Wm4Vector3.inl" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BED1AFB1-A42B-42D5-BC7D-0C6F7BB95BD4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>BezierLoader</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\lib\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>..\obj\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)_d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\lib\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>..\obj\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\src\Wm4;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\src\Wm4;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

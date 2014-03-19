@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Wm4">
+      <UniqueIdentifier>{f9b9ed6c-d98b-442a-bf81-979406e23af3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BezierLoader">
+      <UniqueIdentifier>{0a43bd52-dfef-48ff-a743-a26d7951af2a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\BezierLoader\Bezier.cpp">
+      <Filter>Source Files\BezierLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BezierLoader\BezierCurveData.cpp">
+      <Filter>Source Files\BezierLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BezierLoader\BezierCurveSolver.cpp">
+      <Filter>Source Files\BezierLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BezierLoader\BezierObjLoader.cpp">
+      <Filter>Source Files\BezierLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Wm4\Wm4Vector3.cpp">
+      <Filter>Source Files\Wm4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Wm4\Wm4Math.cpp">
+      <Filter>Source Files\Wm4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Wm4\Wm4Memory.cpp">
+      <Filter>Source Files\Wm4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Wm4\Wm4System.cpp">
+      <Filter>Source Files\Wm4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Wm4\Wm4FoundationPCH.cpp">
+      <Filter>Source Files\Wm4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BezierLoader\BezierBersteinPolynomial.cpp">
+      <Filter>Source Files\BezierLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BezierLoader\BezierControlPoint.cpp">
+      <Filter>Source Files\BezierLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BezierLoader\BezierCurveRenderer.cpp">
+      <Filter>Source Files\BezierLoader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\BezierLoader\Bezier.h">
+      <Filter>Source Files\BezierLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BezierLoader\BezierBersteinPolynomial.h">
+      <Filter>Source Files\BezierLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BezierLoader\BezierCurveData.h">
+      <Filter>Source Files\BezierLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BezierLoader\BezierCurveSolver.h">
+      <Filter>Source Files\BezierLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BezierLoader\BezierObjLoader.h">
+      <Filter>Source Files\BezierLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BezierLoader\BezierMacros.h">
+      <Filter>Source Files\BezierLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Wm4\Wm4THashTable.h">
+      <Filter>Source Files\Wm4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Wm4\Wm4TMinHeap.h">
+      <Filter>Source Files\Wm4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Wm4\Wm4TSmallUnorderedSet.h">
+      <Filter>Source Files\Wm4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Wm4\Wm4TStringHashTable.h">
+      <Filter>Source Files\Wm4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Wm4\Wm4TTuple.h">
+      <Filter>Source Files\Wm4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Wm4\Wm4Vector3.h">
+      <Filter>Source Files\Wm4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Wm4\Wm4FoundationLIB.h">
+      <Filter>Source Files\Wm4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Wm4\Wm4Math.h">
+      <Filter>Source Files\Wm4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Wm4\Wm4MathMCR.h">
+      <Filter>Source Files\Wm4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Wm4\Wm4Memory.h">
+      <Filter>Source Files\Wm4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Wm4\Wm4Platforms.h">
+      <Filter>Source Files\Wm4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Wm4\Wm4System.h">
+      <Filter>Source Files\Wm4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Wm4\Wm4THashSet.h">
+      <Filter>Source Files\Wm4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Wm4\Wm4FoundationPCH.h">
+      <Filter>Source Files\Wm4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BezierLoader\BezierStringHlp.h">
+      <Filter>Source Files\BezierLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BezierLoader\BezierLineOfCommand.h">
+      <Filter>Source Files\BezierLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BezierLoader\BezierControlPoint.h">
+      <Filter>Source Files\BezierLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BezierLoader\BezierCurveRenderer.h">
+      <Filter>Source Files\BezierLoader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\Wm4\Wm4THashSet.inl">
+      <Filter>Source Files\Wm4</Filter>
+    </None>
+    <None Include="..\src\Wm4\Wm4THashTable.inl">
+      <Filter>Source Files\Wm4</Filter>
+    </None>
+    <None Include="..\src\Wm4\Wm4TMinHeap.inl">
+      <Filter>Source Files\Wm4</Filter>
+    </None>
+    <None Include="..\src\Wm4\Wm4TSmallUnorderedSet.inl">
+      <Filter>Source Files\Wm4</Filter>
+    </None>
+    <None Include="..\src\Wm4\Wm4TStringHashTable.inl">
+      <Filter>Source Files\Wm4</Filter>
+    </None>
+    <None Include="..\src\Wm4\Wm4TTuple.inl">
+      <Filter>Source Files\Wm4</Filter>
+    </None>
+    <None Include="..\src\Wm4\Wm4Vector3.inl">
+      <Filter>Source Files\Wm4</Filter>
+    </None>
+    <None Include="..\src\Wm4\Wm4Math.inl">
+      <Filter>Source Files\Wm4</Filter>
+    </None>
+    <None Include="..\src\Wm4\Wm4Memory.inl">
+      <Filter>Source Files\Wm4</Filter>
+    </None>
+    <None Include="..\src\Wm4\Wm4System.inl">
+      <Filter>Source Files\Wm4</Filter>
+    </None>
+  </ItemGroup>
+</Project>
