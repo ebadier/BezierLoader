@@ -12,7 +12,7 @@ Repository structure
 ============
 - bin : the last released.
 - doc : documentation about the BezierLoader project.
-- externals : external librairies used in this project.-
+- externals : external librairies used in this project.
 - media : some assets used to render objects.
 - src : the source code.
 - vs2010 : a solution to compile the project with Visual Studio 2010.
