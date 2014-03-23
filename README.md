@@ -7,6 +7,11 @@ Notes:
 - The loader handles any valid Bezier curve in the OBJ format.
 - The loader report an error if non-Bezier primitives are found in the file.
 - This project use Ogre3D for the rendering part.
+- Bezier curves are computed using a Bernstein polynomial.
+- Curves are described with a set of controls points and some parameters depending on the rendering technique used:
+	- Constant Parametric Subdivision
+	- Constant Space Subdivision
+	- Curvature Dependent Subdivision
 
 Repository structure
 ============
