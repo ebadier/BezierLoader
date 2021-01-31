@@ -13,6 +13,8 @@ Notes:
 	- Constant Space Subdivision
 	- Curvature Dependent Subdivision
 
+![alt text](doc/bezier.jpg)
+
 Repository structure
 ============
 - bin : the last released.
