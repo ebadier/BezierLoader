@@ -1,3 +1,5 @@
+![alt text](doc/bezier.jpg)
+
 BezierLoader
 ============
 An application which can load an OBJ format file, containing one or more Bezier curves, into some internal format. 
@@ -12,8 +14,6 @@ Notes:
 	- Constant Parametric Subdivision
 	- Constant Space Subdivision
 	- Curvature Dependent Subdivision
-
-![alt text](doc/bezier.jpg)
 
 Repository structure
 ============
